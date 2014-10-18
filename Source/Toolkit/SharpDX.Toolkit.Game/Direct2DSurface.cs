@@ -172,7 +172,7 @@ namespace SharpDX.Toolkit
         /// <summary>
         /// Marks this surface as dirty which will cause it to be redrawn (<see cref="Draw"/>).
         /// </summary>
-        internal void Redraw()
+        protected void Redraw()
         {
             IsDirty = true;
         }
